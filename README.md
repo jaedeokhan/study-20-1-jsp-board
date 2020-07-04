@@ -1,6 +1,31 @@
 # study-20-1-jsp-board
 2020 0702 JSP 게시판 만들기 클론코딩 - 동빈나님 
 
+## 구성
+1. src : 자바 Bean 구성, DAO(Data Access Object) 
+   * user/User.java
+   * user/UserDAO.java
+   * board/Board.java
+   * board/BoardDAO.java
+
+2. WebContent
+   * main
+      * index.jsp : 시작 페이지
+      * main.jsp  : 메인 페이지
+      * login.jsp : 로그인 페이지
+         * loginAction.jsp 
+	 * logoutAction.jsp
+      * join.jsp  : 회원가입
+         * joinAction.jsp : 회원가입 동작 페이지
+   * board
+      * bbs.jsp   : 게시판 페이지
+      * view.jsp  : 게시판 상세보기 
+      * write.jsp : 게시판 글쓰기
+         * writeAction.jsp
+      * update.jsp: 게시판 수정하기
+         * updateAction.jsp
+      * deleteAction.jsp : 게시판 삭제
+
 ## JSP 게시판 만들기
 * 1강 - Hello World! 
    * Downlaod Java SE [JAVA jdk SE 8u251 install link](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html)
@@ -20,8 +45,8 @@
   
 * 3강 - 회원 데이터베이스 구축하기
    * Install mysql [mysql 8.0 install link](https://dev.mysql.com/downloads/installer/) 
-   * DB, TABLE 생성 [user.sql]()
-   * Java Beans 생성 [user/User.java]()
+   * DB, TABLE 생성 [user.sql](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/user.sql)
+   * Java Beans 생성 [user/User.java](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/src/user/User.java)
  
 * 4강 - 로그인 기능 구현하기
    * UserDAO.java : UserDAO(), login(userID, userPassword)
@@ -45,8 +70,8 @@
    * write.jsp : 게시판 글쓰기
 
 * 9강 - 게시판 데이터베이스 구축하기
-   * 게시판 테이블 [board.sql]()
-   * board Java Beans 생성 [board/Board.java]()
+   * 게시판 테이블 [board.sql](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/board.sql)
+   * board Java Beans 생성 [board/Board.java](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/src/board/Board.java)
 
 * 10강 - 글쓰기 기능 구현하기
    * write.jsp : 게시판 UI 구현하기
