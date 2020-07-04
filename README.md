@@ -3,28 +3,28 @@
 
 ## 구성
 1. src : 자바 Bean 구성, DAO(Data Access Object) 
-   * user/User.java
-   * user/UserDAO.java
-   * board/Board.java
-   * board/BoardDAO.java
+   * [user/User.java](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/src/user/User.java)
+   * [user/UserDAO.java](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/src/user/UserDAO.java)
+   * [board/Board.java](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/src/board/Board.java)
+   * [board/BoardDAO.java](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/src/board/BoardDAO.java)
 
 2. WebContent
    * main
-      * index.jsp : 시작 페이지
-      * main.jsp  : 메인 페이지
-      * login.jsp : 로그인 페이지
-         * loginAction.jsp 
-	 * logoutAction.jsp
-      * join.jsp  : 회원가입
-         * joinAction.jsp : 회원가입 동작 페이지
+      * [index.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/index.jsp) : 시작 페이지
+      * [main.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/main.jsp)  : 메인 페이지
+      * [login.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/login.jsp) : 로그인 페이지
+         * [loginAction.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/loginAction.jsp) 
+	 * [logoutAction.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/logoutAction.jsp)
+      * [join.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/join.jsp)  : 회원가입
+         * [joinAction.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/joinAction.jsp) : 회원가입 동작 페이지
    * board
-      * bbs.jsp   : 게시판 페이지
-      * view.jsp  : 게시판 상세보기 
-      * write.jsp : 게시판 글쓰기
-         * writeAction.jsp
-      * update.jsp: 게시판 수정하기
-         * updateAction.jsp
-      * deleteAction.jsp : 게시판 삭제
+      * [bbs.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/bbs.jsp)   : 게시판 페이지
+      * [view.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/view.jsp)  : 게시판 상세보기 
+      * [write.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/write.jsp) : 게시판 글쓰기
+         * [writeAction.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/writeAction.jsp)
+      * [update.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/update.jsp) : 게시판 수정하기
+         * [updateAction.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/updateAction.jsp)
+      * [deleteAction.jsp](https://github.com/jaedeokhan/study-20-1-jsp-board/blob/master/Day0702THU_BBS/WebContent/deleteAction.jsp) : 게시판 삭제
 
 ## JSP 게시판 만들기
 * 1강 - Hello World! 
